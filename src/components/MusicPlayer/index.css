@@ -1,0 +1,158 @@
+.container-fluid{
+    margin-bottom: 5rem;
+}
+.artist-search .input-group {
+    width: 29%;
+}
+.artist-search .input-group .input-group-prepend .input-group-text{
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border: none !important;
+    padding: .375rem 1rem .375rem .75rem;
+}
+
+.input-group-prepend .input-group-text img{
+    position: absolute;
+    height: 40%;
+}
+.artist-search .input-group input{
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    background-color: #ede9f4;
+    border: none !important;
+    box-shadow: none !important;    
+}
+.search-result-item {
+    background-color: #fff;
+    cursor: pointer;
+}
+.media-body{
+    font-size: 10px;
+}
+.artist-cont{
+    background-color: #dcd5ea;
+}
+.artist-img{
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    z-index: 9;
+}
+.artist-img h2::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: -1;;
+}
+.artist-img h2{
+    margin-bottom: 6rem;
+}
+.artist-img img{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: -2;
+}
+.artist-albums img{
+    width: 100%;
+}
+.album-container {
+    position: relative;
+}
+.artist-albums .albums{
+    position: absolute;
+    z-index: 9;
+    font-size: 10px;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    padding-left: 5px;
+}
+.albums-main{
+    background-color: #e8dcfe;
+}
+.albums-cont img, .albums-cont div{
+    cursor: pointer;
+}
+
+.album-details{
+    background-color: #6c4da9;
+    color: #fff;
+    padding: 6px 10px 6px 0;
+    cursor: pointer;
+}
+.album-details.active{
+    background-color: #2f0284;
+}
+.media img {
+    max-height: 64px;
+    max-width: 64px;
+}
+.song-cont{
+    margin: 0 .75rem 0 0;
+    padding: 0.7rem 0.8rem;
+    background: #fff;
+    font-size: 1.2vw;
+}
+.preview-player{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2f0284;
+    z-index: 99;
+    padding: 10px;    
+}
+
+.react-h5-audio-player{
+    position: absolute;
+    top: 22%;
+    left: 24%;
+    width: 70%;
+}
+.react-h5-audio-player .flex{
+    background-color: rgba(0,0,0,0) !important;
+    box-shadow: none !important;
+    width: 50% !important;
+}
+.react-h5-audio-player .flex a.toggle-play-button{
+    background-color: rgba(0,0,0,0) !important;
+    top: -55% !important; 
+    left: 280% !important;
+    cursor: pointer;
+}
+.react-h5-audio-player .flex .indicator{
+    width: 10px !important;
+    height: 10px !important;
+    top: 2px !important;
+    background: #fff !important;
+    opacity: 1 !important; 
+}
+.react-h5-audio-player .flex .audio-info{
+    position: absolute;
+    color: #fff;
+    width: 133%;
+    right: -14%;
+    top: -50%;
+    z-index: -1;
+}
+.react-h5-audio-player .flex .audio-info .current-time, .react-h5-audio-player .flex .audio-info .total-time{
+    position: absolute;
+    background: #2f0284;
+}
+.progress-bar-wrapper{
+    height: auto !important;
+}
+.react-h5-audio-player .flex .audio-info .total-time{
+    right: 0;
+}
+.react-h5-audio-player .flex .audio-info .volume-controls{
+    display: none;
+}
+.pause-icon{
+    box-shadow: rgb(42, 2, 132) 7px 0px 0px 0px inset !important;
+}
