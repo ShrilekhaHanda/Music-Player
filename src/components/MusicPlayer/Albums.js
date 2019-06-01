@@ -1,8 +1,8 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import contact from './contact.JPG';
+import contact from './img/contact.JPG';
 import Tracks from './Tracks';
-import img from './Amenity.jpg';
+import img from './img/Amenity.jpg';
 
 
 class Albums extends React.Component{

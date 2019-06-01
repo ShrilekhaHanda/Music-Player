@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Row, Col } from 'react-bootstrap';
-import contact from './contact.JPG';
-import search from './search.png';
+import contact from './img/contact.JPG';
+import search from './img/search.png';
 import './index.css';
 import Albums from './Albums';
 

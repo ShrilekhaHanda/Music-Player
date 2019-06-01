@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Button } from 'react-bootstrap';
-import contact from './contact.JPG';
+import contact from './img/contact.JPG';
 import AudioPlayer from "react-h5-audio-player";
 
 class Tracks extends React.Component{
